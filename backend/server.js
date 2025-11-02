@@ -55,7 +55,7 @@ app.use(express.urlencoded({ limit: '10mb', extended: true }));
 // app.use(cors());
 const allowedOrigins = [
   "https://vibe-chat-rho.vercel.app", // ✅ your frontend (Vercel)
-  "http://localhost:3000",            // ✅ for local testing
+  "http://localhost:5000",            // ✅ for local testing
 ];
 
 app.use(
