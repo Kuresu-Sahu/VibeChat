@@ -53,23 +53,25 @@ app.use((req, res, next) => {
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ limit: '10mb', extended: true }));
 // app.use(cors());
-const allowedOrigins = [
-  "https://vibe-chat-rho.vercel.app", // ✅ your frontend (Vercel)
-  "http://localhost:5000",            // ✅ for local testing
-];
+// const allowedOrigins = [
+//   "https://vibe-chat-rho.vercel.app", // ✅ your frontend (Vercel)
+//   "http://localhost:5000",            // ✅ for local testing
+// ];
 
-app.use(
-  cors({
-    origin: function (origin, callback) {
-      if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error("Not allowed by CORS"));
-      }
-    },
-    credentials: true,
-  })
-);
+// app.use(
+//   cors({
+//     origin: function (origin, callback) {
+//       if (!origin || allowedOrigins.includes(origin)) {
+//         callback(null, true);
+//       } else {
+//         callback(new Error("Not allowed by CORS"));
+//       }
+//     },
+//     credentials: true,
+//   })
+// );
+
+app.use(cors({ origin: true, credentials: true }));
 
 
 //Sample route
