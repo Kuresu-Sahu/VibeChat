@@ -52,27 +52,7 @@ app.use((req, res, next) => {
 // Increase JSON limit moderately to avoid 413 on slightly larger JSON (adjust as needed).
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ limit: '10mb', extended: true }));
-// app.use(cors());
-// const allowedOrigins = [
-//   "https://vibe-chat-rho.vercel.app", // ✅ your frontend (Vercel)
-//   "http://localhost:5000",            // ✅ for local testing
-// ];
-
-// app.use(
-//   cors({
-//     origin: function (origin, callback) {
-//       if (!origin || allowedOrigins.includes(origin)) {
-//         callback(null, true);
-//       } else {
-//         callback(new Error("Not allowed by CORS"));
-//       }
-//     },
-//     credentials: true,
-//   })
-// );
-
-app.use(cors({ origin: true, credentials: true }));
-
+app.use(cors());
 
 //Sample route
 app.use('/api/status', (req, res) => {
