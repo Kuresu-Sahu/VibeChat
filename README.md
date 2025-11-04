@@ -50,18 +50,3 @@ View Profile Details
 
 Edit Profile
 <img width="1366" height="768" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/4457324b-0e33-4b6e-84dc-a735d0dcb2a8" />
-
-Mobile Screen Display
-<img width="1170" height="2532" alt="vibe-chat-rho vercel app_login(iPhone 12 Pro) (2)" src="https://github.com/user-attachments/assets/9b810a4a-39d3-443a-b672-e2c1894846c9" />
-<img width="1170" height="2532" alt="vibe-chat-rho vercel app_login(iPhone 12 Pro) (1)" src="https://github.com/user-attachments/assets/8931c2b2-3f67-4d74-930d-3ebcb3206826" />
-<img width="1170" height="2532" alt="vibe-chat-rho vercel app_login(iPhone 12 Pro)" src="https://github.com/user-attachments/assets/16547f15-50ef-4ca4-80c8-413abfac125b" />
-<img width="1170" height="2532" alt="vibe-chat-rho vercel app_verify(iPhone 12 Pro)" src="https://github.com/user-attachments/assets/4abefc95-0534-459f-ae26-e29596334adf" />
-
-
-
-
-
-
-
-
-
